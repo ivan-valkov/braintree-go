@@ -3,8 +3,9 @@ package braintree
 import (
 	"encoding/base64"
 	"encoding/xml"
-	"github.com/braintree-go/braintree-go/xmlnil"
 	"net/http"
+
+	"github.com/ivan-valkov/braintree-go/xmlnil"
 )
 
 type WebhookNotificationGateway struct {

@@ -1,8 +1,9 @@
 package braintree
 
 import (
-	"github.com/braintree-go/braintree-go/customfields"
 	"time"
+
+	"github.com/ivan-valkov/braintree-go/customfields"
 )
 
 type Customer struct {

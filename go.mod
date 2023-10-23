@@ -1,1 +1,3 @@
-module github.com/braintree-go/braintree-go
+module github.com/ivan-valkov/braintree-go
+
+go 1.21.2
