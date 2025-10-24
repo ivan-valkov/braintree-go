@@ -40,6 +40,7 @@ type CreditCard struct {
 	BillingAddress            *Address           `xml:"billing-address,omitempty"`
 	Subscriptions             *Subscriptions     `xml:"subscriptions,omitempty"`
 	ProductID                 string             `xml:"product-id,omitempty"`
+	Consumer                  string             `xml:"consumer,omitempty"`
 }
 
 type CreditCards struct {
