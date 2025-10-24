@@ -102,6 +102,10 @@ type Transaction struct {
 	AuthorizationExpiresAt       *time.Time                `xml:"authorization-expires-at"`
 	MerchantAdviceCode           string                    `xml:"merchant-advice-code"`
 	MerchantAdviceCodeText       string                    `xml:"merchant-advice-code-text"`
+	NetworkResponseCode          string                    `xml:"network-response-code"`
+	NetworkResponseText          string                    `xml:"network-response-text"`
+	ProcessedWithNetworkToken    string                    `xml:"processed-with-network-token"`
+	Recurring                    string                    `xml:"recurring"`
 }
 
 type TransactionRequest struct {
