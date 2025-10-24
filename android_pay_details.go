@@ -16,6 +16,9 @@ type AndroidPayDetails struct {
 	BIN                 string `xml:"bin"`
 	GoogleTransactionID string `xml:"google-transaction-id"`
 	ImageURL            string `xml:"image-url"`
+	CountryOfIssuance   string `xml:"country-of-issuance"`
+	Debit               string `xml:"debit"`
+	Prepaid             string `xml:"prepaid"`
 }
 
 func (a *AndroidPayDetails) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
